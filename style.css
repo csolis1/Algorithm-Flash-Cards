@@ -9,7 +9,9 @@ body {
     flex-flow: column wrap;
     background: #1f1f1f;
     color:azure;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 ul {
@@ -21,7 +23,7 @@ ul {
     margin: 0 auto;
     padding: 15px;
     text-align: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .card {
@@ -52,6 +54,16 @@ ul {
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
+.algorithm-name {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 1px 1px rgba(34, 107, 42, -0.8) ,2px 2px rgba(53, 165, 65, 1) ,3px 3px rgba(62, 194, 76, 2.8) ,4px 4px rgba(68, 211, 83, 4.6) ,5px 5px rgba(72, 223, 88, 6.4) ,6px 6px rgba(74, 231, 91, 8.2) ,7px 7px rgba(76, 237, 94, 10) ,8px 8px rgba(78, 242, 95, 11.8) ,9px 9px rgba(79, 246, 97, 13.6) ,10px 10px rgba(80, 249, 98, 15.4) ,11px 11px rgba(81, 252, 99, 17.2) ,12px 12px rgba(82, 254, 100, 19) ,13px 13px rgba(82, 255, 101, 20.8) ,14px 14px rgba(83, 255, 101, 22.6) ,15px 15px rgba(83, 255, 102, 24.4) ,16px 16px rgba(84, 255, 103, 26.2) ,17px 17px rgba(84, 255, 103, 28) ,18px 18px rgba(84, 255, 103, 29.8) ,19px 19px rgba(85, 255, 104, 31.6) ,20px 20px rgba(85, 255, 104, 33.4) ,21px 21px rgba(85, 255, 104, 35.2) ,22px 22px rgba(85, 255, 105, 37) ,23px 23px rgba(86, 255, 105, 38.8);
+    
+}
+
+.algorithm-summary {
+    font-weight: 500;
+}
 /* .card-front, .card-back {
     position: absolute;
     backface-visibility: hidden;
